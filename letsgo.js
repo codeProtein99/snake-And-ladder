@@ -6,6 +6,6 @@ function store()
     var y = document.getElementById('textbox_id').value;
     localStorage.setItem("name",y);
     console.log(y);
-    window.location.href="snake.js"
+    // window.location.href="snake.js"
    
 }
